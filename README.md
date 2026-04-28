@@ -8,7 +8,9 @@ A recursive file aggregation utility. Parses directories via POSIX-extended rege
 ## Installation (Arch Linux)
 Requires a PKGBUILD manifest in the repository root for fakeroot compilation.
 ```bash
-git clone [https://github.com/](https://github.com/)<user>/<repo>.git && cd <repo> && makepkg -si
+git clone https://github.com/AZP3001/ffind.git
+cd ffind
+makepkg -si
 
 ```
 ## Synopsis
@@ -42,9 +44,3 @@ ffind -i ~/Downloads -o ~/Documents/configs -f yaml,json,conf
 ffind -i /mnt/data/archives -o ~/Pictures/dump -p image -d
 
 ```
-
-
-
-git clone https://github.com/<user>/<repo>.git
-cd <repo>
-makepkg -si

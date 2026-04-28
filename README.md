@@ -21,12 +21,12 @@ ffind -i <input dir> -o <output dir> [-f <filetype1,filetype2> | -p <preset>] [-
 ## Flags
 | Flag | Parameter | Description |
 |---|---|---|
-| -i | <indir> | Source directory absolute/relative path. |
-| -o | <outdir> | Target destination directory path. |
-| -f | <ext1,ext2> | Comma-separated array of file extensions. |
-| -p | <preset> | Categorical extension preset mapping. |
-| -d | null | Persist source topology (tree-preserve mode). |
-| -h | null | Invoke stdout help block. |
+| -i | <indir> | Input Directory |
+| -o | <outdir> | Output Directory |
+| -f | <ext1,ext2> | Comma-separated list of file types |
+| -p | <preset> | Presets of Pre-Selected file types |
+| -d | null | Keeps folder Structure |
+| -h | null | Prints Help |
 ## Presets (-p)
  * **zip**: zip,7z,gz,tgz,rar,tar,bz2,xz
  * **image**: png,jpeg,jpg,webp,ico,icon,gif,bmp,svg,tiff

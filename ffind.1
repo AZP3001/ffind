@@ -1,1 +1,28 @@
-
+.TH FFIND 1 "April 2026" "1.0" "User Commands"
+.SH NAME
+ffind \- Recursively aggregate and copy files by extension or preset
+.SH SYNOPSIS
+.B ffind
+[ \-i \fIindir\fR ] [ \-o \fIoutdir\fR ] [ \-f \fIext1,ext2\fR | \-p \fIpreset\fR ] [ \-d ]
+.SH DESCRIPTION
+.B ffind
+recursively searches \fIindir\fR for files matching specified extensions and copies them to \fIoutdir\fR. Defaults to flat structure with collision numbering.
+.SH OPTIONS
+.TP
+.BR \-i " " \fIindir\fR
+Target input directory.
+.TP
+.BR \-o " " \fIoutdir\fR
+Target output directory.
+.TP
+.BR \-f " " \fIext1,ext2\fR
+Comma-separated list of extensions.
+.TP
+.BR \-p " " \fIpreset\fR
+Pre-defined extension groupings (zip, image, video, audio, txt).
+.TP
+.BR \-d
+Replicate input directory tree structure in output.
+.TP
+.BR \-h ", " \-help
+Invoke runtime help block.

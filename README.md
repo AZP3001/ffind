@@ -13,7 +13,7 @@ git clone [https://github.com/](https://github.com/)<user>/<repo>.git && cd <rep
 ```
 ## Synopsis
 ```bash
-ffind -i <indir> -o <outdir> [-f <ext1,ext2> | -p <preset>] [-d]
+ffind -i <input dir> -o <output dir> [-f <filetype1,filetype2> | -p <preset>] [-d]
 
 ```
 ## Flags

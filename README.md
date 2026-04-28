@@ -42,3 +42,9 @@ ffind -i ~/Downloads -o ~/Documents/configs -f yaml,json,conf
 ffind -i /mnt/data/archives -o ~/Pictures/dump -p image -d
 
 ```
+
+
+
+git clone https://github.com/<user>/<repo>.git
+cd <repo>
+makepkg -si
